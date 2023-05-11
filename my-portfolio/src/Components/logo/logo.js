@@ -7,7 +7,7 @@ function Logo(){
     return (
         <Fragment>
             <div> 
-                <img classname='logo' alt='Logo which reads LMB Design' src='./public/images/logo_white.png'></img>
+                <img className='logo' alt='Logo which reads LMB Design' src='../images/logo_white.png'></img>
                 <Link to='/'></Link>
             </div>
         </Fragment>

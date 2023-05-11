@@ -10,9 +10,9 @@ function Navbar(props) {
     return(
         <Fragment>
         <div>
-            <header id='header' classname='nav'>
+            <header id='header' className='nav'>
                 <Container>
-                   <div><Logo></Logo></div> 
+                   <div><Logo/></div> 
 
                    <ul id="nav-links">
                         <li> 
