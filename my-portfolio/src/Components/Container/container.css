@@ -1,6 +1,6 @@
 .row-container {
     display: flex;
-    justify-content: center;
-    margin: auto;
-    padding: 0; 
+    justify-content: right;
+    padding-top: 20px;
+    padding-right: 30px;
 }

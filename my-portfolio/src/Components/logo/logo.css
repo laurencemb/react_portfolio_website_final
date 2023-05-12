@@ -3,4 +3,8 @@
     display: flex;
     justify-content: left;
     align-items: left;
+    height: 150px;
+    position:absolute;
+    left: 0;
+    top: 0;
 }

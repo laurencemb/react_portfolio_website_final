@@ -4,3 +4,33 @@
     
 
 }
+
+@font-face {
+    font-family: "light";
+    src: local('FuturaLight'),
+    url("./Fonts/futura light bt.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "medium";
+    src: local('FuturaMedium'),
+    url("./Fonts/futura medium bt.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "heavy";
+    src: local('FuturaHeavy'),
+    url("./Fonts/Futura\ Heavy\ font.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Xheavy";
+    src: local('FuturaXHeavy'),
+    url("./Fonts/Futura\ XBlk\ BT.ttf") format('truetype');
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:active { text-decoration: none; }

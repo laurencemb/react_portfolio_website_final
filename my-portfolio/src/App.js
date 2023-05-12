@@ -9,7 +9,6 @@ import ContactPage from './Components/ContactPage/contact'
 function App() {
   return (
     <Fragment>
-      <div className="bg"></div>
       <Router>
         <Routes>
           <Route path="/" element={<HomePage/>}/>

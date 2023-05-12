@@ -1,0 +1,15 @@
+#nav-links {
+    text-decoration: none;
+    float:right;
+}
+
+.nav {
+    height: 200px;  
+}
+
+ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }

@@ -1,6 +1,7 @@
 import { useLocation } from 'react-router-dom';
 import React from 'react';
 import './navlink.css';
+import '../../global.css'
 
 function Navlink(props) {
  

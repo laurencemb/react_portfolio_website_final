@@ -1,12 +1,17 @@
 #navlink {
+    font-family: "medium"; 
     background-color: transparent;
-    color: var(--offWhite);
-    position: relative;
-    text-align: center;
+    color: white;
+    text-align: right;
     margin:  5px auto;
-    padding: 0;
+    padding: 20;
+    border: none;
+    text-decoration: none ;
+    align-items: right;
+    justify-content: right;
 }
 
 #navlink:hover {
-    color: var(--actionOrange);
+    font-family: "Xheavy";
+    color:rgb(224, 6, 90);
 }
