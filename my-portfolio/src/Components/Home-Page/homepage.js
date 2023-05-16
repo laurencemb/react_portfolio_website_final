@@ -5,6 +5,9 @@ import "../../global.css";
 import Container from "../Container/container";
 import Column from "../Column/column"
 import Grid from "../Grid/grid"
+import Card from "../Card/card";
+import CardData from "../Card/cardData";
+
 
 function HomePage(){
     return (
@@ -25,7 +28,10 @@ function HomePage(){
         
          <Container>
             <Grid>
-            
+            <div className="homeCards">
+                <Card details={CardData} />
+                
+            </div>
             </Grid>
          </Container>
         </Fragment>

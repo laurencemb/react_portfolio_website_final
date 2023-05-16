@@ -1,0 +1,58 @@
+.card {
+    width: 35vh;
+    height: 60vh;
+    background-color: white;
+    opacity: 0.65;
+    text-align: center;
+    margin-left: 10%;
+    
+
+}
+
+.cardTitle {
+    font-family: "medium";
+    src: local('FuturaMedium'),
+    url("../../Fonts/futura\ medium\ bt.ttf") format('truetype'); 
+
+}
+
+.cardImage {
+    height: 20vh;
+    padding-bottom: 5vh;
+    padding-top: 2vh;
+}
+
+.cardImage img {
+width: 20vh;
+padding: 15px;
+align-content: center;
+margin-bottom: 0%;
+
+}
+
+
+.cardDescription{
+    color: black;
+    font-family: "light";
+    src: local('FuturaLight'),
+    url("../../Fonts/futura light bt.ttf") format('truetype');
+    text-align: left;
+    font-size: 8pt;
+    margin-left: 5vh;
+    margin-right: 5vh;
+
+}
+
+.homeCards {
+    padding-top: 25vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0, auto;
+}
+
+.homeCards  .card {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 30px;
+}

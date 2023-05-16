@@ -5,6 +5,9 @@
 
 }
 
+body 
+{width:auto}
+
 @font-face {
     font-family: "light";
     src: local('FuturaLight'),

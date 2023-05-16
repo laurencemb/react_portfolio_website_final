@@ -4,14 +4,22 @@ import "./card.css"
 function Card(props) {
  
     return (
-        <div className="card">
-            <div className='image-container'>
-                <img src={""} alt={""}/>
+        <>
+        {props.details.map((value, index) => (
+            <div className="card" key={index}>
+                <div className="cardImage">
+                    <img src={value.img} alt="" />
+                </div>
+                <div>
+                    <h3 className="cardTitle">{value.title}</h3>
+                    <p className="cardDescription">{value.description}</p>
+                </div>
             </div>
-            <h3></h3>
-        </div>
-        
-)
-    }
+        ))}
+        ;
+        </>
+
+);
+    };
     
     export default Card;
