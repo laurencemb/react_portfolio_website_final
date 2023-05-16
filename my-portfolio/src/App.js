@@ -5,6 +5,7 @@ import ProjectsPage from './Components/Projects-Page/projects'
 import AboutPage from './Components/About-Page/about'
 import BlogPage from './Components/BlogPage/blog'
 import ContactPage from './Components/ContactPage/contact'
+import ServicePage from './Components/ServicePage/services'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/aboutme" element={<AboutPage/>}/>
           <Route path="/blog" element={<BlogPage/>}/>
           <Route path="/contact" element={<ContactPage/>}/>
+          <Route path="/services" element={<ServicePage/>}/>
         </Routes>
       </Router>
     </Fragment>

@@ -1,0 +1,9 @@
+.divider {
+    height: .6vh;
+    width: 25vh;
+    background-color: white;
+    stroke: white;
+    stroke-linecap: round;
+    margin-top: 7vh;
+    
+  }

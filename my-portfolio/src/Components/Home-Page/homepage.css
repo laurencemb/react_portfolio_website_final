@@ -13,3 +13,47 @@ p {
 
 
 }
+
+.BookNowButton  {
+        margin-top: 5vh;;
+        background-color: #DB0B6F;
+        border: 1px solid transparent;
+        color: white;
+        cursor: pointer;
+        position: relative;
+        border-radius: 100px;
+        max-width: 600px;
+        min-height: 8vh;
+        min-width: 38vh;
+        text-align: center;
+        font-family: "Medium";
+        src: local('FuturaMedium'),
+        url("../../Fonts/futura medium bt.ttf") format('truetype');
+        filter: drop-shadow(5px 3px 4px black);
+
+    }
+
+    .BookNowButton:hover{
+        filter: drop-shadow(2px 2px 1px black);
+    }
+
+
+   .serviceslink {
+        font-family: "medium"; 
+        background-color: transparent;
+        color: white;
+        text-align: right;
+        margin:  5px auto;
+        padding: 20;
+        border: none;
+        text-decoration: underline ;
+        align-items: right;
+        justify-content: right;
+        vertical-align: top;
+        margin-top: -2vh;
+    }
+    
+    .serviceslink:hover{
+        font-family: "Xheavy";
+        color:rgb(224, 6, 90);
+    }
