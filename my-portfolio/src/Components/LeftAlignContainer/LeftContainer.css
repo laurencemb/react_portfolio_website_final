@@ -1,0 +1,6 @@
+.left-container {
+    display: flex;
+    justify-content: left;
+    padding-top: 20px;
+    padding-left: 130px;
+}

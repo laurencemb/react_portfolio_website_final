@@ -46,7 +46,7 @@ margin-bottom: 0%;
 }
 
 .homeCards {
-    padding-top: 10vh;
+    padding-top: 0vh;
     width: auto;
     display: flex;
     justify-content: center;

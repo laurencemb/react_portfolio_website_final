@@ -1,9 +1,15 @@
-h1 {
+h1, h2 {
     font-family: "Heavy";
     color: white;
     
 
 }
+
+.servicesText{
+    text-align: center;
+}
+
+
 
 p {
     font-family: "light";
