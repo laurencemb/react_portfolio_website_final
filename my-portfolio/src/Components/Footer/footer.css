@@ -3,4 +3,27 @@
     height: 25vh;
     box-shadow: 0 0 100px 80px #5A1B3F ;
 
+
+
+}
+
+.footerLinks{
+   padding-top: 8vh;
+} 
+
+.footerLink{
+    padding-right: 5vh;
+    padding-left: 5vh;
+}
+
+ul {
+text-align: center;
+padding-right: 5vh;
+
+}
+
+.copyright{
+    font-size: x-small;
+    justify-content: baseline;
+   margin-top: 4vh;
 }

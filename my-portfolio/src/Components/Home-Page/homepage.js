@@ -57,7 +57,7 @@ function HomePage() {
         </CenterContainer>
 
         <LeftContainer>
-          <h1> Past Work</h1>
+          <h1 className="subHead"> Past Work</h1>
         </LeftContainer>
 
         <Container>
@@ -71,7 +71,7 @@ function HomePage() {
           <Divider />
         </CenterContainer>
         <LeftContainer>
-          <h1> My Services</h1>
+          <h1 className="subHead"> My Services</h1>
         </LeftContainer>
         <Container>
           <Column>
@@ -137,7 +137,9 @@ function HomePage() {
           </Link>
         </CenterContainer>
 
-        <Divider />
+        <CenterContainer>
+          <Divider />
+        </CenterContainer>
         <Footer />
       </Fragment>
     </div>

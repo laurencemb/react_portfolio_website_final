@@ -2,5 +2,11 @@
     display: flex;
     justify-content: center;
     padding-top: 20px;
-    padding-right: 30px;
+    text-align: center;
+  
+    /* padding-right: 30px; */
+}
+
+.wide{
+    min-width: 500px;
 }

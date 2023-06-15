@@ -22,6 +22,9 @@
     height: 20vh;
     padding-bottom: 5vh;
     padding-top: 2vh;
+    display: flex;
+    align-items: center; /* vertical align */
+    justify-content: center; /* horizontal align */
 }
 
 .cardImage img {
@@ -57,4 +60,61 @@ margin-bottom: 0%;
     display: inline-block;
     vertical-align: top;
     margin: 0 30px;
+}
+
+.tags{
+    display: flex;
+     align-items: center; /* vertical align */
+    justify-content: center; /* horizontal align */
+    background-color: #3D1D4C ;
+    width: 10vh;
+    font-size: x-small;
+    border-radius: 25px;
+    height: 3vh;
+    margin: .5vh;
+
+}
+
+.tagsContainer {
+    display: flex;
+    flex-wrap: wrap; /* Add this property to enable wrapping */
+    justify-content: center;
+    margin-top: 1vh;
+  }
+
+  .web-design {
+    background-color: #3D1D4C;
+    color: white;
+  }
+  
+  .user-experience {
+    background-color: #FF6F61;
+    color: white;
+  }
+  
+  .branding {
+    background-color: #009B77;
+    color: white;
+  }
+  
+  .default {
+    background-color: #CCCCCC;
+    color: black;
+  }
+
+  .cardTextCont{
+    min-height: 13vh;
+  }
+
+  
+  
+.arrow{
+    height: 6vh;
+    filter: drop-shadow(1px 1px 1px black);
+    color: #160456;
+
+}
+
+.arrow:hover{
+    filter: drop-shadow(.5px .5px .5px black); 
 }

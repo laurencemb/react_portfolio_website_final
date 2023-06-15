@@ -63,3 +63,7 @@ p {
         font-family: "Xheavy";
         color:rgb(224, 6, 90);
     }
+
+    .subHead{
+        margin-left: 20vh;
+    }
