@@ -6,6 +6,11 @@ import AboutPage from './Components/About-Page/about'
 import BlogPage from './Components/BlogPage/blog'
 import ContactPage from './Components/ContactPage/contact'
 import ServicePage from './Components/ServicePage/services'
+import WebDesignPage from './Components/ServicePages/serviceswebdes'
+import WebDevelopmentPage from './Components/ServicePages/serviceswebdev'
+import UXPage from './Components/ServicePages/serviceswebux'
+import BrandingPage from './Components/ServicePages/serviceswebbrand'
+import WebsiteSupportPage from './Components/ServicePages/serviceswebsup'
 
 function App() {
   return (
@@ -18,6 +23,11 @@ function App() {
           <Route path="/blog" element={<BlogPage/>}/>
           <Route path="/contact" element={<ContactPage/>}/>
           <Route path="/services" element={<ServicePage/>}/>
+          <Route path="/serviceswebdesign" element={<WebDesignPage/>}/>
+          <Route path="/serviceswebdevelopment" element={<WebDevelopmentPage/>}/>
+          <Route path="/servicesux" element={<UXPage/>}/>
+          <Route path="/servicesbranding" element={<BrandingPage/>}/>
+          <Route path="/serviceswebsitesuport" element={<WebsiteSupportPage/>}/>
         </Routes>
       </Router>
     </Fragment>

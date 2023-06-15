@@ -1,0 +1,40 @@
+.serviceHeadDiv{
+    width: 75%;
+  border-bottom: solid white 2px; 
+   padding: 0 !important;
+
+}
+
+.serviceHead{
+    margin-left: 20.75vh;
+    margin-bottom: -.5vh;
+}
+
+.serviceText{
+    margin-left: 20vh;
+    min-width: 75%;
+}
+
+.buttonCont{
+    width: 100%;
+    position: relative;
+}
+
+.learnMoreBtn{
+    position: absolute;
+    bottom: 1vh;
+    right: 25vh; 
+    background-color: #DB0B6F;
+    border: 1px solid transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 100px;
+    min-height: 4vh;
+    min-width: 20vh;
+    text-align: center;
+    font-family: "Medium";
+    src: local('FuturaMedium'),
+    url("../../Fonts/futura medium bt.ttf") format('truetype');
+    filter: drop-shadow(5px 3px 4px black);
+}
+
