@@ -22,6 +22,9 @@ function ServicePage() {
         <CenterContainer>
           <h1>Services</h1>
         </CenterContainer>
+        <CenterContainer>
+          <Divider />
+        </CenterContainer>
         <LeftContainer>
           <h2 className="serviceHead">Website Design</h2>
         </LeftContainer>
@@ -154,7 +157,12 @@ function ServicePage() {
           </Link>
           </div>
         </LeftContainer>
+        <CenterContainer>
+          <Divider />
+        </CenterContainer>
+        <Footer/>
       </Fragment>
+      
     </div>
   );
 }

@@ -37,4 +37,7 @@
     url("../../Fonts/futura medium bt.ttf") format('truetype');
     filter: drop-shadow(5px 3px 4px black);
 }
+.learnMoreBtn:hover{
+    filter: drop-shadow(2px 2px 1px black);
+}
 
