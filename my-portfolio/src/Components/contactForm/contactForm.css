@@ -1,0 +1,71 @@
+.inputForm{
+    
+    justify-content: center;
+}
+
+.inputDiv{
+   
+}
+
+form{
+  
+}
+
+input{
+    width: 40vh;
+    padding: 1vh;
+   justify-content: center;
+   margin-bottom: 2vh;
+   filter: drop-shadow(5px 3px 4px black);
+   cursor: pointer;
+   border: 1px solid transparent;
+   border-radius: 2px;
+
+}
+
+input::placeholder{
+    font-family: "light";
+}
+
+textarea{
+    margin-top: 2vh;
+    width: 70vh;
+    height: 30vh;
+    filter: drop-shadow(5px 3px 4px black);
+    cursor: pointer;
+    border: 1px solid transparent;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 1vh;
+}
+
+textarea::placeholder{
+    font-family: "light";
+   
+}
+
+input, textarea{
+    font-family: "light";
+}
+
+.contactBtn{
+    margin-top: 5vh;;
+    background-color: #DB0B6F;
+    border: 1px solid transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    border-radius: 100px;
+    max-width: 600px;
+    min-height: 6vh;
+    min-width: 30vh;
+    text-align: center;
+    font-family: "Medium";
+    src: local('FuturaMedium'),
+    url("../../Fonts/futura medium bt.ttf") format('truetype');
+    filter: drop-shadow(5px 3px 4px black);
+}
+
+.contactBtn:hover{
+    filter: drop-shadow(2px 2px 1px black);
+}
