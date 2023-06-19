@@ -30,7 +30,7 @@ function WebDesignPage() {
           <Column>
             <ul className="serviceList">
               <li>
-                <h3 className="serviceHead"><FontAwesomeIcon icon={faCircleCheck} /> Free Design Consulatation</h3>
+                <h3 className="serviceHead"><FontAwesomeIcon icon={faCircleCheck} /> Free Design Consultation</h3>
                 <p>
                   {" "}
                   Understanding what you need from your site and the style you

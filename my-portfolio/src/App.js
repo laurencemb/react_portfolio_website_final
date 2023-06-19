@@ -27,7 +27,7 @@ function App() {
           <Route path="/serviceswebdevelopment" element={<WebDevelopmentPage/>}/>
           <Route path="/servicesux" element={<UXPage/>}/>
           <Route path="/servicesbranding" element={<BrandingPage/>}/>
-          <Route path="/serviceswebsitesuport" element={<WebsiteSupportPage/>}/>
+          <Route path="/serviceswebsitesupport" element={<WebsiteSupportPage/>}/>
         </Routes>
       </Router>
     </Fragment>

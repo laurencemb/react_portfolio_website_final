@@ -30,7 +30,7 @@ function WebDevelopmentPage() {
           <Column>
             <ul className="serviceList">
               <li>
-                <h3 className="serviceHead"><FontAwesomeIcon icon={faCircleCheck} /> Free Development Consulatation</h3>
+                <h3 className="serviceHead"><FontAwesomeIcon icon={faCircleCheck} /> Free Development Consultation</h3>
                 <p>
                   {" "}
                   Understanding what you need from your site and the style you
@@ -128,7 +128,7 @@ function WebDevelopmentPage() {
                 <h3 className="serviceHead"><FontAwesomeIcon icon={faCircleQuestion} /> Web Design</h3>
                 <p>
                   {" "}
-                  DOn't have a design yet? Pair with one of my Web Design packages to go straight
+                  Don't have a design yet? Pair with one of my Web Design packages to go straight
                   from design to build!
                 </p>
               </li>
@@ -146,7 +146,7 @@ function WebDevelopmentPage() {
                 <p>
                   {" "}
                   Pair with one of my Branding packages to develop a whole new
-                  idnetity for your brand alongisde your new website!
+                  identity for your brand alongisde your new website!
                 </p>
               </li>
             </ul>
