@@ -1,0 +1,90 @@
+h2{
+    margin-left: 15vh;
+}
+.serviceList{
+    align-items: center; 
+    justify-content: center; 
+  width: 80%; 
+    text-align: left; 
+}
+
+.serviceHead{
+    color: white;
+    margin:0;
+}
+ 
+.priceCard {
+    width: 40vh;
+    height: 60vh;
+    background-color: white;
+    opacity: 0.8;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    filter: drop-shadow(5px 3px 4px black);
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    
+    
+
+}
+
+.priceCardTitle {
+    font-family: "medium";
+    src: local('FuturaMedium'),
+    url("../../Fonts/futura\ medium\ bt.ttf") format('truetype'); 
+    margin-left: 2vh;
+    width: 88%;
+  border-bottom: solid black 2px !important; 
+ ;
+
+}
+.startingFrom{
+    font-family: "light";
+    color: black;
+    margin-left: 2vh; 
+    font-size: x-small;
+    margin-bottom: -2.5vh;
+}
+
+.price{
+    font-family: "heavy";
+    color: black;
+    margin-left: 2vh;
+    
+}
+
+.context{
+    font-family: "light";
+    color: black;
+    margin-left: 2vh;
+    font-size: smaller;
+    width: 88%;
+    border-bottom: solid black 1px; 
+    padding-bottom: 2vh;
+
+}
+
+.priceCardDescription{
+    color: black;
+    font-family: "light";
+    font-size: smaller;
+    src: local('FuturaLight'),
+    url("../../Fonts/futura light bt.ttf") format('truetype');
+    text-align: left;
+    margin-left: 2vh;
+    max-width: 90%;
+    
+
+}
+
+
+
+  
+
+  
+  
+
+
+

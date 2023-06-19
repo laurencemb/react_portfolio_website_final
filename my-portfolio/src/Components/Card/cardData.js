@@ -22,7 +22,7 @@ const CardData =  [
 {
     img: ShredLogo,
     title: 'Shred-It Collective',
-    description: 'Porfolio Site Dsign for an artist collective, producing large scale art installations for music festivals.',
+    description: 'Porfolio Site Design for an artist collective, producing large scale art installations for music festivals.',
     tags: ['Web Design',
     'Branding'],
     link: '/shreditproject'

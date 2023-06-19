@@ -26,7 +26,7 @@ function ServicePage() {
           <Divider />
         </CenterContainer>
         <LeftContainer>
-          <h2 className="serviceHead">Website Design</h2>
+          <h2 className="serviceHeading">Website Design</h2>
         </LeftContainer>
         <CenterContainer>
           <div className="serviceHeadDiv"></div>
@@ -53,7 +53,7 @@ function ServicePage() {
         </LeftContainer>
 
         <LeftContainer>
-          <h2 className="serviceHead">Website Development</h2>
+          <h2 className="serviceHeading">Website Development</h2>
         </LeftContainer>
         <CenterContainer>
           <div className="serviceHeadDiv"></div>
@@ -77,7 +77,7 @@ function ServicePage() {
           </div>
         </LeftContainer>
         <LeftContainer>
-          <h2 className="serviceHead">User Experience</h2>
+          <h2 className="serviceHeading">User Experience</h2>
         </LeftContainer>
         <CenterContainer>
           <div className="serviceHeadDiv"></div>
@@ -101,7 +101,7 @@ function ServicePage() {
           </div>
         </LeftContainer>
         <LeftContainer>
-          <h2 className="serviceHead">Brand Identity</h2>
+          <h2 className="serviceHeading">Brand Identity</h2>
         </LeftContainer>
         <CenterContainer>
           <div className="serviceHeadDiv"></div>
@@ -128,7 +128,7 @@ function ServicePage() {
           </div>
         </LeftContainer>
         <LeftContainer>
-          <h2 className="serviceHead">Website Support</h2>
+          <h2 className="serviceHeading">Website Support</h2>
         </LeftContainer>
         <CenterContainer>
           <div className="serviceHeadDiv"></div>
@@ -159,6 +159,14 @@ function ServicePage() {
         </LeftContainer>
         <CenterContainer>
           <Divider />
+        </CenterContainer>
+        <CenterContainer>
+          <Link to="/contact">
+            <Button
+              className="BookNowButton"
+              text="Book a Free Consultation"
+            ></Button>
+          </Link>
         </CenterContainer>
         <Footer/>
       </Fragment>
