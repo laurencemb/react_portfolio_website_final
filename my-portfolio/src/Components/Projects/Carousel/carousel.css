@@ -1,0 +1,29 @@
+.carousel{
+    display: flex;
+    background-color: none;
+}
+
+.carouselSlide{
+    max-width: 450px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.slideArrow{
+    height: 6vh;
+    filter: drop-shadow(1px 1px 1px black);
+    color: white;
+    background-color: none;
+
+}
+
+.slideArrow:hover{
+    filter: drop-shadow(.5px .5px .5px black); 
+}
+
+.slideButton {
+   background: none;
+   border: none;
+   
+}
