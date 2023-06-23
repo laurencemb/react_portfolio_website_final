@@ -24,7 +24,7 @@ function WebDesignPage() {
           <h1>WEB DESIGN</h1>
         </CenterContainer>
         <LeftContainer>
-          <h2>What's Included:</h2>
+          <h2 className="serviceHeadings">What's Included:</h2>
         </LeftContainer>
         <CenterContainer>
           <Column>
@@ -110,7 +110,7 @@ function WebDesignPage() {
           <Divider />
         </CenterContainer>
         <LeftContainer>
-          <h2>Optional Extras</h2>
+          <h2 className="serviceHeadings">Optional Extras</h2>
         </LeftContainer>
         <CenterContainer>
           <Column>
@@ -177,7 +177,7 @@ function WebDesignPage() {
           <Divider />
         </CenterContainer>
         <LeftContainer>
-          <h2>Pricing</h2>
+          <h2 className="serviceHeadings">Pricing</h2>
         </LeftContainer>
         <CenterContainer>
           <Grid>

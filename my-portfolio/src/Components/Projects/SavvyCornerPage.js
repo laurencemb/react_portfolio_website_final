@@ -20,7 +20,11 @@ function SavvyCornerPage() {
       <Fragment>
         <Nav />
         <CenterContainer>
-          <h1 className="portfolioHeading">Portfolio</h1>
+          <h1 className="portfolioHeading">Savvy Corner</h1>
+          
+        </CenterContainer>
+        <CenterContainer>
+          <h2 className="portfolioHeading">E-commerce Site</h2>
           
         </CenterContainer>
         <CenterContainer>

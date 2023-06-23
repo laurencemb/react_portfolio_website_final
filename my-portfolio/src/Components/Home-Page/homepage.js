@@ -75,7 +75,7 @@ function HomePage() {
         </LeftContainer>
         <Container>
           <Column>
-            <h2>
+            <h2 className="homeServicesHeading">
               Web Design
               <br />
             </h2>
@@ -86,7 +86,7 @@ function HomePage() {
               unique user experience. Learn more.
             </p>
 
-            <h2>
+            <h2 className="homeServicesHeading">
               User Experience
               <br />
             </h2>
@@ -100,7 +100,7 @@ function HomePage() {
           </Column>
 
           <Column>
-            <h2>Brand Identity</h2>
+            <h2 className="homeServicesHeading">Brand Identity</h2>
             <p className="servicesText">
               Craft a unique and impactful brand identity. Go beyond a logo to
               reflect your mission, values, and experiences. Stand out and
@@ -108,7 +108,7 @@ function HomePage() {
               more. <br></br>
             </p>
 
-            <h2>
+            <h2 className="homeServicesHeading">
               Website Support <br />
             </h2>
             <p className="servicesText">

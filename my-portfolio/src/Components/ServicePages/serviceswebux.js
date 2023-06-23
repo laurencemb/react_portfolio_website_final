@@ -24,7 +24,7 @@ function UXPage() {
           <h1>USER EXPERIENCE</h1>
         </CenterContainer>
         <LeftContainer>
-          <h2>What's Included:</h2>
+          <h2 className="serviceHeadings">What's Included:</h2>
         </LeftContainer>
         <CenterContainer>
           <Column>
@@ -93,7 +93,7 @@ function UXPage() {
           <Divider />
         </CenterContainer>
         <LeftContainer>
-          <h2>Optional Extras</h2>
+          <h2 className="serviceHeadings" >Optional Extras</h2>
         </LeftContainer>
         <CenterContainer>
           <Column>
@@ -144,7 +144,7 @@ function UXPage() {
           <Divider />
         </CenterContainer>
         <LeftContainer>
-          <h2>Pricing</h2>
+          <h2 className="serviceHeadings" >Pricing</h2>
         </LeftContainer>
         <CenterContainer>
           <Grid>
