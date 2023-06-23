@@ -11,6 +11,9 @@ import WebDevelopmentPage from './Components/ServicePages/serviceswebdev'
 import UXPage from './Components/ServicePages/serviceswebux'
 import BrandingPage from './Components/ServicePages/serviceswebbrand'
 import WebsiteSupportPage from './Components/ServicePages/serviceswebsup'
+import SavvyCornerPage from './Components/Projects/SavvyCornerPage'
+import SpokePage from './Components/Projects/SpokePage';
+import ShredItPage from './Components/Projects/ShredItPage';
 
 function App() {
   return (
@@ -28,6 +31,9 @@ function App() {
           <Route path="/servicesux" element={<UXPage/>}/>
           <Route path="/servicesbranding" element={<BrandingPage/>}/>
           <Route path="/serviceswebsitesupport" element={<WebsiteSupportPage/>}/>
+          <Route path="/savvycornerproject" element={<SavvyCornerPage/>}/>
+          <Route path="/spokeproject" element={<SpokePage/>}/>
+          <Route path="/shreditproject" element={<ShredItPage/>}/>
         </Routes>
       </Router>
     </Fragment>
