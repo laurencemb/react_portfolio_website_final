@@ -14,12 +14,22 @@ import { Link } from "react-router-dom";
 import Divider from "../Divider/divider.js";
 import Footer from "../Footer/footer";
 import Carousel from './Carousel/carousel';
+import browserVideo from './SCImages/BrowserDesignVideo.mp4'
+import mobileVideo from './SCImages/MobileView.mp4'
+import siteMap from './SCImages/sitemap.jpg'
+import userExperience from './SCImages/userexperience.jpg'
+import SavvyCornerLogo from '../Card/cardImages/SavvyCornerFinalLogo.png'
 
 function SavvyCornerPage() {
   return (
     <div className="bg">
       <Fragment>
         <Nav />
+        <CenterContainer>
+          <img className='projectLogo' src={SavvyCornerLogo} alt="SavvyCorner Logo a large S and C with dramatic curves"/>
+          
+          
+        </CenterContainer>
         <CenterContainer>
           <h1 className="projectHead">Savvy Corner</h1>
           
@@ -75,6 +85,49 @@ typography analysis and package as well as a new colour palette.   {" "}
           </div>
         </LeftContainer>
         <Carousel/>
+        <LeftContainer>
+          <h2 className="serviceHeading">User Experience</h2>
+        </LeftContainer>
+        <CenterContainer>
+          <div className="serviceHeadDiv"></div>
+        </CenterContainer>
+        <LeftContainer>
+            <div className="buttonCont">
+          <p className="serviceText">
+           There were many outcomes from the research tasks in terms of User Experience, seeing how best in class cosmetics and medical companies presented themselves digitally. These informed how the flow and form of the final website.{" "}
+            <br /> <br /> 
+          </p>
+         
+          </div>
+        </LeftContainer>
+        <CenterContainer>
+            <Column><img className='UXDiag' src={siteMap} alt="Site map for Savvy Corner Website"/></Column>
+            <Column><img className='UXDiag' src={userExperience} alt="diagram showing user experience considerationslaid out on a page"/></Column>
+        </CenterContainer>
+        <LeftContainer>
+          <h2 className="serviceHeading">Wireframe / Prototype</h2>
+        </LeftContainer>
+        <CenterContainer>
+          <div className="serviceHeadDiv"></div>
+        </CenterContainer>
+        <LeftContainer>
+            <div className="buttonCont">
+          <p className="serviceText">
+          The below videos show the prototypes of the Savvy Corner website for mobile and desktop, to a medium fidelity standard. A link to the finished site will be posted upon completetion. {" "}
+            <br /> <br />
+          
+          </p>
+         
+          </div>
+        </LeftContainer>
+        <CenterContainer>
+            <Column><video src={browserVideo} width="700" height="300" controls="controls" ></video></Column>
+            <Column><video src={mobileVideo} width="700" height="300" controls="controls" ></video></Column>
+        </CenterContainer>
+<CenterContainer><Divider/></CenterContainer>
+        
+
+
         <Footer />
       </Fragment>
      

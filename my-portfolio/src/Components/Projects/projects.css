@@ -6,5 +6,14 @@ margin-top: 0% ;
 
 .projectHead{
     margin-bottom: 0%;
+    margin-top: 0%;
     font-size: 35pt;
+}
+
+.UXDiag{
+    max-width: 700px;
+}
+
+.projectLogo{
+    max-height:100px;
 }
