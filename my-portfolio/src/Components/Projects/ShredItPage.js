@@ -20,6 +20,7 @@ import siteMap from './SCImages/sitemap.jpg'
 import userExperience from './SCImages/userexperience.jpg'
 import ShredLogo from '../Card/cardImages/ShredLogo.jpg'
 import ShredCarouselData from './Carousel/ShredData';
+import MobileVideo from './Carousel/ShredImages/MobileRecording.webm'
 
 function ShredItPage() {
   return (
@@ -72,8 +73,18 @@ function ShredItPage() {
           </p>
          
           </div>
+          
         </LeftContainer>
         <Carousel data={ShredCarouselData}/>
+
+        <CenterContainer><Divider/></CenterContainer>
+
+        <CenterContainer><video
+              src={MobileVideo}
+              width="500"
+              height="300"
+              controls="controls"
+            ></video></CenterContainer>
        
 <CenterContainer><Divider/></CenterContainer>
         
