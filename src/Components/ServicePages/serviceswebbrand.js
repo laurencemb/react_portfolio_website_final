@@ -2,7 +2,6 @@ import "./fullservices.css";
 import React, { Fragment } from "react";
 import Nav from "../Nav/nav.js";
 import "../../global.css";
-import Container from "../Container/container";
 import CenterContainer from "../CenterAlignContainer/CenterContainer";
 import LeftContainer from "../LeftAlignContainer/LeftContainer";
 import Column from "../Column/column";

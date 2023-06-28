@@ -2,7 +2,6 @@ import React from "react";
 import "./card.css"
 import LeftContainer from "../LeftAlignContainer/LeftContainer";
 import Column from "../Column/column";
-import Button from "../Button/button";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';

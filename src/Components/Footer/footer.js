@@ -1,5 +1,4 @@
 import React, {Fragment} from 'react';
-import LeftContainer from "../LeftAlignContainer/LeftContainer";
 import './footer.css';
 import { Link } from 'react-router-dom';
 import Navlink from '../Nav-Link/navlink.js';

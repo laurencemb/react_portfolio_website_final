@@ -2,7 +2,6 @@ import "./fullservices.css";
 import React, { Fragment } from "react";
 import Nav from "../Nav/nav.js";
 import "../../global.css";
-import Container from "../Container/container";
 import CenterContainer from "../CenterAlignContainer/CenterContainer";
 import LeftContainer from "../LeftAlignContainer/LeftContainer";
 import Column from "../Column/column";
@@ -13,7 +12,7 @@ import Divider from "../Divider/divider.js";
 import Footer from "../Footer/footer";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
-import { faCircleQuestion } from '@fortawesome/free-solid-svg-icons';
+
 
 function WebsiteSupportPage() {
   return (

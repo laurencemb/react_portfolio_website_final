@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { faCircleArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import Column from "../../Column/column";
-import carouselData from "./savvyCarouselData";
 import CenterContainer from "../../CenterAlignContainer/CenterContainer";
 
 const Carousel = ({ data }) => {

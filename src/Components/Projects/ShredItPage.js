@@ -2,22 +2,11 @@ import './projects.css'
 import React, { Fragment } from "react";
 import Nav from "../Nav/nav.js";
 import "../../global.css";
-import Container from "../Container/container";
 import CenterContainer from "../CenterAlignContainer/CenterContainer";
 import LeftContainer from "../LeftAlignContainer/LeftContainer";
-import Column from "../Column/column";
-import Grid from "../Grid/grid";
-import Card from "../Card/card";
-import CardData from "../Card/cardData";
-import Button from "../Button/button";
-import { Link } from "react-router-dom";
 import Divider from "../Divider/divider.js";
 import Footer from "../Footer/footer";
 import Carousel from './Carousel/carousel';
-import browserVideo from './SCImages/BrowserDesignVideo.mp4'
-import mobileVideo from './SCImages/MobileView.mp4'
-import siteMap from './SCImages/sitemap.jpg'
-import userExperience from './SCImages/userexperience.jpg'
 import ShredLogo from '../Card/cardImages/ShredLogo.jpg'
 import ShredCarouselData from './Carousel/ShredData';
 import MobileVideo from './Carousel/ShredImages/MobileRecording.webm'
