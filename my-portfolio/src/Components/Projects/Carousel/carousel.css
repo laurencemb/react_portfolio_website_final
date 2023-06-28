@@ -1,12 +1,14 @@
 .carousel{
     display: flex;
     background-color: none;
+    width: 80%;
 }
 
 .carouselSlide{
-    max-width: 550px;
+    max-width: 500px;
     padding-left: 20px;
     padding-right: 20px;
+max-height: 400px;
 
 }
 
