@@ -29,10 +29,7 @@ function Navbar(props) {
                                 {' '}
                                         <Navlink text='Services'/>
                             </Link>
-                            <Link to='/blog'>
-                                {' '}
-                                        <Navlink text='Blog'/>
-                            </Link>
+    
                             <Link to='/contact'>
                                 {' '}
                                         <Navlink text='Contact Me'/>
