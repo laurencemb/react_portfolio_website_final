@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom';
 import Navlink from '../Nav-Link/navlink.js';
 import '../../global.css';
 import CenterContainer from "../CenterAlignContainer/CenterContainer";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
+import { faBehanceSquare } from '@fortawesome/free-brands-svg-icons';
 
 
 function Footer(props) {
@@ -29,16 +33,26 @@ function Footer(props) {
                                 {' '}
                                         <Navlink text='Services'/>
                             </Link>
-                            <Link className='footerLink' to='/blog'>
-                                {' '}
-                                        <Navlink text='Blog'/>
-                            </Link>
+                           
                             <Link className='footerLink' to='/contact'>
                                 {' '}
                                         <Navlink text='Contact Me'/>
                             </Link>
                         </li>
                    </ul>
+                   </CenterContainer>
+
+                   <CenterContainer>
+                   <Link to='https://www.linkedin.com/in/laurence-moreton-burt-b5ab64a8/'>
+                   <FontAwesomeIcon className="icon" icon={faLinkedin} />
+                   </Link>
+                   <Link to='https://twitter.com/laurence_tjmb'>
+                   <FontAwesomeIcon className="icon" icon={faTwitterSquare} />
+                   </Link>
+                   <Link to='https://www.behance.net/edsear'>
+                   <FontAwesomeIcon className="icon" icon={faBehanceSquare} />
+                   </Link>
+                   
                    </CenterContainer>
 
                 <CenterContainer>

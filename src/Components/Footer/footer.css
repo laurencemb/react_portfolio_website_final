@@ -1,6 +1,6 @@
 .footer{
     background-color: #5A1B3F;
-    height: 30vh;
+    height: 40vh;
     box-shadow: 0 0 100px 80px #5A1B3F ;
 
 
@@ -26,4 +26,11 @@ padding-right: 5vh;
     font-size: x-small;
     justify-content: baseline;
    margin-top: 4vh;
+}
+
+.icon {
+    color:white;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    height: 25px;
 }
