@@ -8,18 +8,18 @@ import Button from "../Button/button";
 import { Link } from "react-router-dom";
 import Divider from "../Divider/divider.js";
 import Footer from "../Footer/footer";
+import Logo from "../logo/logo";
 
 function ServicePage() {
   return (
     <div className="bg">
       <Fragment>
         <Nav />
+        <Logo/>
         <CenterContainer>
           <h1>Services</h1>
         </CenterContainer>
-        <CenterContainer>
-          <Divider />
-        </CenterContainer>
+        
         <LeftContainer>
           <h2 className="serviceHeading">Website Design</h2>
         </LeftContainer>
