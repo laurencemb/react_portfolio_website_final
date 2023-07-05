@@ -7,8 +7,9 @@
    
 }
 
-form{
-  
+.inputForm{
+  justify-content: center;
+  align-items: center;
 }
 
 input{
@@ -68,4 +69,22 @@ input, textarea{
 
 .contactBtn:hover{
     filter: drop-shadow(2px 2px 1px black);
+}
+
+@media only screen and (max-width: 800px) {
+    input, textarea{
+        max-width: 90%;
+        padding:none;
+    }
+    .inputDiv{
+        
+    }
+
+    .inputForm{
+        max-width: 90%;
+    }
+    p{
+        max-width: 95%;
+    }
+    
 }

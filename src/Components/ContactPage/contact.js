@@ -6,12 +6,14 @@ import CenterContainer from "../CenterAlignContainer/CenterContainer";
 import Divider from "../Divider/divider.js";
 import Footer from "../Footer/footer";
 import ContactForm from "../contactForm/contactForm";
+import Logo from "../logo/logo.js";
 
 function ContactPage (){
     return(
         <div className="bg">
             <Fragment>
                 <Nav/>
+                <Logo/>
                 <CenterContainer>
                     <h1>Get in touch</h1>
                 </CenterContainer>
