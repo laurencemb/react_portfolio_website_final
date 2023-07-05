@@ -1,10 +1,40 @@
 .logo {
     padding: 10px;
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: flex-start;
+    align-items: flex-start;
     height: 150px;
     position:absolute;
     left: 0;
     top: 0;
 }
+
+@media only screen and (max-width: 600px) {
+
+  /*  .logoDiv{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }  */
+
+   .logo {
+   /*  padding: 20px; */
+    display: flex;
+    align-items: center;
+    height: 150px;
+   position: absolute;
+   text-align: center;
+    left: 50%;
+    transform: translate( -50%, 30%);
+    margin-top: 4vh;
+    margin-bottom: 0vh;
+
+
+   
+   
+
+ 
+    
+}
+}
+

@@ -68,3 +68,42 @@ p {
     .subHead{
         margin-left: 30vh;
     }
+
+    /* Add media queries for different screen sizes */
+@media only screen and (max-width: 600px) {
+  h1,
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    max-width: 100%;
+  }
+
+  .BookNowButton {
+    min-height: 6vh;
+    min-width: 30vh;
+  }
+
+  .serviceslink {
+    margin-top: -1vh;
+    text-align: center;
+  }
+
+  .subHead {
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Column {
+    flex: 1 1 300px;
+    margin: 10px;
+  }
+}

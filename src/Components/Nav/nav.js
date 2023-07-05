@@ -12,8 +12,9 @@ function Navbar(props) {
         <Fragment>
         <div>
             <header id='header' className='nav'>
-                <Container>
-                   <div><Logo/></div> 
+            
+                <Container className='navContainer'>
+                 
 
                    <ul id="nav-links">
                         <li> 
@@ -21,22 +22,29 @@ function Navbar(props) {
                                 {' '}
                                         <Navlink text='About Me'/>
                             </Link>
+                            </li>
+                            <li>
                             <Link to='/projects'>
                                 {' '}
                                         <Navlink text='My Projects'/>
                             </Link>
+                            </li>
+                            <li>
                             <Link to='/services'>
                                 {' '}
                                         <Navlink text='Services'/>
                             </Link>
-    
+                            </li>
+                            <li>
                             <Link to='/contact'>
                                 {' '}
                                         <Navlink text='Contact Me'/>
                             </Link>
                         </li>
                    </ul>
+                    
                 </Container>
+                
             </header>
         </div>
         </Fragment>

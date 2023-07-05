@@ -13,12 +13,14 @@ import Button from "../Button/button";
 import { Link } from "react-router-dom";
 import Divider from "../Divider/divider.js";
 import Footer from "../Footer/footer";
+import Logo from "../logo/logo";
 
 function HomePage() {
   return (
     <div className="bg">
-      <Fragment>
+      <Fragment >
         <Nav />
+        <Logo/>
         <Container>
           <Column>
             <h1>
@@ -61,11 +63,11 @@ function HomePage() {
         </LeftContainer>
 
         <Container>
-          <Grid>
+          
             <div className="homeCards">
               <Card details={CardData} />
             </div>
-          </Grid>
+          
         </Container>
         <CenterContainer>
           <Divider />

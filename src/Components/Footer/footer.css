@@ -1,6 +1,6 @@
 .footer{
     background-color: #5A1B3F;
-    height: 40vh;
+    height: fit-content;
     box-shadow: 0 0 100px 80px #5A1B3F ;
 
 
@@ -12,13 +12,14 @@
 } 
 
 .footerLink{
-    padding-right: 5vh;
-    padding-left: 5vh;
+  /*   padding-right: 5vh;
+    padding-left: 5vh; */
 }
 
 ul {
 text-align: center;
 padding-right: 5vh;
+justify-content: center;
 
 }
 
@@ -34,3 +35,30 @@ padding-right: 5vh;
     margin-right: 1vh;
     height: 25px;
 }
+
+@media only screen and (max-width: 600px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        max-width: 100%;
+       
+        
+     
+    }
+
+    ul{
+     
+                display: flex;
+                
+               
+                
+             
+            }
+        
+            
+        
+    }
+
+
+

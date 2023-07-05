@@ -25,15 +25,20 @@ function Footer(props) {
                                 {' '}
                                         <Navlink text='About Me'/>
                             </Link>
+                            </li>
+                            <li> 
                             <Link className='footerLink' to='/projects'>
                                 {' '}
                                         <Navlink text='My Projects'/>
                             </Link>
+                            </li>
+                            <li> 
                             <Link className='footerLink' to='/services'>
                                 {' '}
                                         <Navlink text='Services'/>
                             </Link>
-                           
+                            </li>
+                            <li> 
                             <Link className='footerLink' to='/contact'>
                                 {' '}
                                         <Navlink text='Contact Me'/>

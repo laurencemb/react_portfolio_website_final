@@ -1,6 +1,7 @@
 .card {
     width: 35vh;
-    height: 60vh;
+    height: fit content;
+    padding-bottom: 20px;
     background-color: white;
     opacity: 0.8;
     text-align: center;
@@ -131,4 +132,33 @@ justify-content: center;
     filter: drop-shadow(.5px .5px .5px black); 
 }
 
+@media only screen and (max-width: 700px) {
+  /* Remove the grid layout and make it a single column */
+  .homeCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    
+  }
 
+  .card {
+    width: 35vh;
+    height: fit-content;
+    padding: 5px;
+    background-color: white;
+    opacity: 0.8;
+    text-align: center;
+    margin-left: 10%;
+    filter: drop-shadow(5px 3px 4px black);
+    margin-bottom: 200px;
+    margin-top: 200px
+    
+
+}
+
+.homeCards .card {
+  margin-bottom: 20px;
+}
+
+}
