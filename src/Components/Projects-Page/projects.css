@@ -2,3 +2,13 @@
     font-size: 35pt;
 }
 
+@media only screen and (max-width: 600px) {
+    .portfolioHeading{
+        margin-top: 250px;
+        font-size: 30pt;
+    }
+    .projectFoot{
+        margin-top: 300px;
+    }
+    }
+

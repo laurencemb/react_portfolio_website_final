@@ -11,12 +11,14 @@ import Button from "../Button/button";
 import { Link } from "react-router-dom";
 import Divider from "../Divider/divider.js";
 import Footer from "../Footer/footer";
+import Logo from "../logo/logo"
 
 function ProjectsPage() {
   return (
     <div className="bg">
       <Fragment>
         <Nav />
+        <Logo/>
         <CenterContainer>
           <h1 className="portfolioHeading">Portfolio</h1>
           
@@ -32,11 +34,11 @@ function ProjectsPage() {
           <Divider />
         </CenterContainer>
         <Container>
-          <Grid>
+         
             <div className="homeCards">
               <Card details={CardData} />
             </div>
-          </Grid>
+          
         </Container>
         <CenterContainer>
           <Link to="/contact">

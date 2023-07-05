@@ -15,3 +15,7 @@
     font-family: "heavy";
     color:rgb(224, 6, 90);
 }
+
+@media only screen and (max-width: 600px) {
+    #navlink{text-align:center;}
+}
