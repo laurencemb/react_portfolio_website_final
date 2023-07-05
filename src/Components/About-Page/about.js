@@ -10,15 +10,17 @@ import Divider from "../Divider/divider.js";
 import Footer from "../Footer/footer";
 import Image from "./aboutImages/LaurenceMoretonBurt.png";
 import "./about.css";
+import Logo from "../logo/logo.js";
 
 function AboutPage() {
   return (
     <div className="bg">
       <Fragment>
         <Nav />
+        <Logo/>
         <Container>
           <Column>
-            <h1>About Me</h1>
+            <h1 className="aboutHead">About Me</h1>
             <p>
               I came to user experience from a more traditional design
               background, retraining after working within the fashion industry. 

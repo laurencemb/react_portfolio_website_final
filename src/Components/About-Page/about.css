@@ -1,3 +1,8 @@
 .profilePic {
     height: 50vh;
 }
+@media only screen and (max-width: 600px) {
+.aboutHead{
+    margin-top: 250px;
+}
+}
