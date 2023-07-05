@@ -1,7 +1,6 @@
 import React, {Fragment} from 'react';
 import Container from '../Container/container';
 import './nav.css';
-import Logo from '../logo/logo.js';
 import { Link } from 'react-router-dom';
 import Navlink from '../Nav-Link/navlink.js';
 import '../../global.css';

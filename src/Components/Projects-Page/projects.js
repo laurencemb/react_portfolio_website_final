@@ -4,7 +4,6 @@ import Nav from "../Nav/nav.js";
 import "../../global.css";
 import Container from "../Container/container";
 import CenterContainer from "../CenterAlignContainer/CenterContainer";
-import Grid from "../Grid/grid";
 import Card from "../Card/card";
 import CardData from "../Card/cardData";
 import Button from "../Button/button";

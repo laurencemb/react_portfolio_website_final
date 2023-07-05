@@ -5,7 +5,6 @@ import "../../global.css";
 import CenterContainer from "../CenterAlignContainer/CenterContainer";
 import LeftContainer from "../LeftAlignContainer/LeftContainer";
 import Column from "../Column/column";
-import Grid from "../Grid/grid";
 import Button from "../Button/button";
 import { Link } from "react-router-dom";
 import Divider from "../Divider/divider.js";
