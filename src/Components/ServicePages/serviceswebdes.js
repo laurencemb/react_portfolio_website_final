@@ -13,12 +13,14 @@ import Footer from "../Footer/footer";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import { faCircleQuestion } from '@fortawesome/free-solid-svg-icons';
+import Logo from "../logo/logo";
 
 function WebDesignPage() {
   return (
     <div className="bg">
       <Fragment>
         <Nav />
+        <Logo/>
         <CenterContainer>
           <h1>WEB DESIGN</h1>
         </CenterContainer>
@@ -179,7 +181,8 @@ function WebDesignPage() {
           <h2 className="serviceHeadings">Pricing</h2>
         </LeftContainer>
         <CenterContainer>
-          <Grid>
+          <div className="cardContainer">
+          
             <div className="priceCard">
               <div className="cardTextCont">
                 <h3 className="priceCardTitle">Starter</h3>
@@ -232,15 +235,15 @@ function WebDesignPage() {
                 </p>
                 <p className="priceCardDescription">
                   A website with a custom design and several features including
-                  complex functionality. A complete research package. Presented
-                  as a functional high fidelity prototype. Designed to be built
+                  complex functionality.  Presented
+                  as a high fidelity prototype. Designed to be built
                   from the ground up on a custom-coded template, including a
                   content management system.
                 </p>
               </div>
             </div>
-
-          </Grid>
+            </div>
+          
         </CenterContainer>
         <CenterContainer>
           <Divider />

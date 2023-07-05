@@ -1,6 +1,6 @@
 .card {
     width: 35vh;
-    height: fit content;
+    
     padding-bottom: 20px;
     background-color: white;
     opacity: 0.8;
@@ -132,7 +132,7 @@ justify-content: center;
     filter: drop-shadow(.5px .5px .5px black); 
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   /* Remove the grid layout and make it a single column */
   .homeCards {
     display: flex;
@@ -144,7 +144,7 @@ justify-content: center;
 
   .card {
     width: 35vh;
-    height: fit-content;
+   
     padding: 5px;
     background-color: white;
     opacity: 0.8;

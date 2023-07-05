@@ -13,12 +13,14 @@ import Footer from "../Footer/footer";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import { faCircleQuestion } from '@fortawesome/free-solid-svg-icons';
+import Logo from "../logo/logo";
 
 function WebDevelopmentPage() {
   return (
     <div className="bg">
       <Fragment>
         <Nav />
+        <Logo/>
         <CenterContainer>
           <h1>WEB DEVELOPMENT</h1>
         </CenterContainer>
@@ -158,7 +160,7 @@ function WebDevelopmentPage() {
           <h2 className="serviceHeadings" >Pricing</h2>
         </LeftContainer>
         <CenterContainer>
-          <Grid>
+          <div className="cardContainer">
             <div className="priceCard">
               <div className="cardTextCont">
                 <h3 className="priceCardTitle">Starter</h3>
@@ -212,8 +214,7 @@ function WebDevelopmentPage() {
                 </p>
               </div>
             </div>
-
-          </Grid>
+            </div>  
         </CenterContainer>
         <CenterContainer>
           <Divider />

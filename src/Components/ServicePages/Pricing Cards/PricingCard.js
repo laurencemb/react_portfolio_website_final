@@ -37,17 +37,7 @@ function PricingCard(props) {
                     <p className="cardDescription">{value.description}</p>
                 </div>
 <LeftContainer className="tagsContainer">
-   <Column>
-
-            {value.tags.map((tag, tagIndex) => (
-              <div className={`tags ${getTagColor(tag)}`} key={tagIndex}>
-                <p>{tag}</p>
-              </div>
-            ))}
-        
-            
-            
-        </Column>
+  
         <Column>
         <Link to={value.link}>
             

@@ -13,12 +13,14 @@ import Footer from "../Footer/footer";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import { faCircleQuestion } from '@fortawesome/free-solid-svg-icons';
+import Logo from "../logo/logo";
 
 function BrandingPage() {
   return (
     <div className="bg">
       <Fragment>
         <Nav />
+        <Logo/>
         <CenterContainer>
           <h1>Branding</h1>
         </CenterContainer>
