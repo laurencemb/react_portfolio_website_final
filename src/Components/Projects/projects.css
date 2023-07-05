@@ -11,10 +11,25 @@ margin-top: 0% ;
 }
 
 .UXDiag{
-    max-width: 500px;
+    max-width: 450px;
+    margin: 5px;
    
 }
 
 .projectLogo{
     max-height:100px;
+}
+
+video{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+@media only screen and (max-width: 800px) {
+    .projectLogo{
+        margin-top: 250px;
+    }
+    .UXDiag{
+        max-width: 90%;
+    }
 }

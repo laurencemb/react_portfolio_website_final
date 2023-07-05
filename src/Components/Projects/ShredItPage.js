@@ -10,12 +10,14 @@ import Carousel from './Carousel/carousel';
 import ShredLogo from '../Card/cardImages/ShredLogo.jpg'
 import ShredCarouselData from './Carousel/ShredData';
 import MobileVideo from './Carousel/ShredImages/MobileRecording.webm'
+import Logo from '../logo/logo';
 
 function ShredItPage() {
   return (
     <div className="bg">
       <Fragment>
         <Nav />
+        <Logo/>
         <CenterContainer>
           <img className='projectLogo' src={ShredLogo} alt="Spoke Logo a black circle filled with lines mimicing a bike wheel"/>
           

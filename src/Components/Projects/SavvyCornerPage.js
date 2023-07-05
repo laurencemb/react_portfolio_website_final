@@ -14,12 +14,15 @@ import siteMap from "./SCImages/sitemap.jpg";
 import userExperience from "./SCImages/userexperience.jpg";
 import SavvyCornerLogo from "../Card/cardImages/SavvyCornerFinalLogo.png";
 import carouselData from "./Carousel/savvyCarouselData";
+import Logo from "../logo/logo";
+import Container from "../Container/container";
 
 function SavvyCornerPage() {
   return (
     <div className="bg">
       <Fragment>
         <Nav />
+        <Logo/>
         <CenterContainer>
           <img
             className="projectLogo"
@@ -95,7 +98,7 @@ function SavvyCornerPage() {
             </p>
           </div>
         </LeftContainer>
-        <CenterContainer>
+        <Container>
           <Column>
             <img
               className="UXDiag"
@@ -110,7 +113,7 @@ function SavvyCornerPage() {
               alt="diagram showing user experience considerationslaid out on a page"
             />
           </Column>
-        </CenterContainer>
+        </Container>
         <LeftContainer>
           <h2 className="serviceHeading">Wireframe / Prototype</h2>
         </LeftContainer>
@@ -126,11 +129,11 @@ function SavvyCornerPage() {
             </p>
           </div>
         </LeftContainer>
-        <CenterContainer>
+        <Container>
           <Column>
             <video
               src={browserVideo}
-              width="500"
+              width="400"
               height="300"
               controls="controls"
             ></video>
@@ -138,12 +141,12 @@ function SavvyCornerPage() {
           <Column>
             <video
               src={mobileVideo}
-              width="500"
+              width="400"
               height="300"
               controls="controls"
             ></video>
           </Column>
-        </CenterContainer>
+        </Container>
         <CenterContainer>
           <Divider />
         </CenterContainer>

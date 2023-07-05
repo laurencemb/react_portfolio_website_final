@@ -9,12 +9,14 @@ import Footer from "../Footer/footer";
 import Carousel from './Carousel/carousel';
 import SpokeLogo from '../Card/cardImages/SpokeLogo.png'
 import SpokeCarouselData from './Carousel/spokeCarouselData/spokeCarouselData';
+import Logo from '../logo/logo';
 
 function SpokePage() {
   return (
     <div className="bg">
       <Fragment>
         <Nav />
+        <Logo/>
         <CenterContainer>
           <img className='projectLogo' src={SpokeLogo} alt="Spoke Logo a black circle filled with lines mimicing a bike wheel"/>
           
