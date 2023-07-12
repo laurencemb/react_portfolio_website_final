@@ -8,7 +8,7 @@ function Logo(){
         
             <div className='logoDiv'> 
             <Link to='/'>
-                <img className='logo' alt='Logo which reads LMB Design' src='../images/logo_white.png'></img>
+                <img className='logo' alt='Logo which reads LMB Design' src='../images/logo_white.webp'></img>
                </Link>
             </div>
        

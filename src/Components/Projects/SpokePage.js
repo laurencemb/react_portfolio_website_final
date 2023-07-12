@@ -7,7 +7,7 @@ import LeftContainer from "../LeftAlignContainer/LeftContainer";
 import Divider from "../Divider/divider.js";
 import Footer from "../Footer/footer";
 import Carousel from './Carousel/carousel';
-import SpokeLogo from '../Card/cardImages/SpokeLogo.png'
+import SpokeLogo from '../Card/cardImages/SpokeLogo.webp'
 import SpokeCarouselData from './Carousel/spokeCarouselData/spokeCarouselData';
 import Logo from '../logo/logo';
 

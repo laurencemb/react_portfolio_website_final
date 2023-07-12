@@ -1,6 +1,6 @@
-import SavvyLogo from './cardImages/SavvyCornerFinalLogo.png';
-import SpokeLogo from './cardImages/SpokeLogo.png';
-import ShredLogo from './cardImages/ShredLogo.jpg';
+import SavvyLogo from './cardImages/SavvyCornerFinalLogo.webp';
+import SpokeLogo from './cardImages/SpokeLogo.webp';
+import ShredLogo from './cardImages/ShredLogo.webp';
 
 const CardData =  [
 {

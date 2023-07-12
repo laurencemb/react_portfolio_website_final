@@ -1,13 +1,13 @@
-import slide1 from './ShredImages/Browser1.png'
-import slide2 from './ShredImages/Browser2.png'
-import slide3 from './ShredImages/Browser3.png'
-import slide4 from './ShredImages/Browser4.png'
-import slide5 from './ShredImages/Browser5.png'
-import slide6 from './ShredImages/Mobile1.png'
-import slide7 from './ShredImages/Mobile2.png'
-import slide8 from './ShredImages/Mobile3.png'
-import slide9 from './ShredImages/Mobile4.png'
-import slide10 from './ShredImages/Mobile5.png'
+import slide1 from './ShredImages/Browser1.webp'
+import slide2 from './ShredImages/Browser2.webp'
+import slide3 from './ShredImages/Browser3.webp'
+import slide4 from './ShredImages/Browser4.webp'
+import slide5 from './ShredImages/Browser5.webp'
+import slide6 from './ShredImages/Mobile1.webp'
+import slide7 from './ShredImages/Mobile2.webp'
+import slide8 from './ShredImages/Mobile3.webp'
+import slide9 from './ShredImages/Mobile4.webp'
+import slide10 from './ShredImages/Mobile5.webp'
 
 
 

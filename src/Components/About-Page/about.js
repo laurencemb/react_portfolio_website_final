@@ -8,7 +8,7 @@ import Button from "../Button/button";
 import { Link } from "react-router-dom";
 import Divider from "../Divider/divider.js";
 import Footer from "../Footer/footer";
-import Image from "./aboutImages/LaurenceMoretonBurt.png";
+import Image from "./aboutImages/LaurenceMoretonBurt.webp";
 import "./about.css";
 import Logo from "../logo/logo.js";
 

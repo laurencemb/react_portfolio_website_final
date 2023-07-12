@@ -7,7 +7,7 @@ import LeftContainer from "../LeftAlignContainer/LeftContainer";
 import Divider from "../Divider/divider.js";
 import Footer from "../Footer/footer";
 import Carousel from './Carousel/carousel';
-import ShredLogo from '../Card/cardImages/ShredLogo.jpg'
+import ShredLogo from '../Card/cardImages/ShredLogo.webp'
 import ShredCarouselData from './Carousel/ShredData';
 import MobileVideo from './Carousel/ShredImages/MobileRecording.webm'
 import Logo from '../logo/logo';
