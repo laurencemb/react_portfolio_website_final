@@ -81,7 +81,7 @@ function HomePage() {
               <br />
             </h2>
             <p className="servicesText">
-              Website Design and Development I am specialised in creating
+              I specialise in creating
               bespoke website designs and web development for small businesses
               and non-profits, focusing on performance, accessibility, and
               unique user experience. Learn more.

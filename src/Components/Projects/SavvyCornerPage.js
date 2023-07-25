@@ -70,8 +70,8 @@ function SavvyCornerPage() {
               This research and branding package, included a thorough review of
               existing market leaders, before liaising with stakeholders, to
               confirm the style and direction they wanted for the new Savvy
-              Corner brand. Then based on their initial product offering, a mood
-              was developed inline with their desire, for a clinical, modern
+              Corner brand. Then, based on their initial product offering, a mood
+              was developed inline with their desire for a clinical, modern
               site which presented a calm and informed but stylish shopping
               environment. <br />
               <br />

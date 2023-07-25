@@ -32,7 +32,7 @@ function ServicePage() {
             I offer a range of design packages, for all project sizes ranging
             from quick mock ups to fully functional prototypes. I specialise in
             creating fast user friendly websites, for small business, with an
-            emphasis on accessibility. Every design takins in to consideration
+            emphasis on accessibility. Every design takes in to consideration
             the unique perspective of your business, ethos and customer base to
             deliver an exceptional and genuine experience for your visitors.{" "}
             <br /> <br />
@@ -56,7 +56,7 @@ function ServicePage() {
         <LeftContainer>
         <div className="buttonCont">
           <p className="serviceText">
-            Bringing your designs to life, I will custom code your website, I
+            I will custom code your website to bring your designs to life. I
             build responsive mobile friendly sites, with a focus on fast loading
             times and accessibility. My custom-coded solution means that the
             unique needs of your business are being matched exactly, delivering
@@ -81,7 +81,7 @@ function ServicePage() {
         <div className="buttonCont">
           <p className="serviceText">
             Looking to improve your existing website? I can help by providing a
-            review of your sites services with an emphasis on the user
+            review of your site's services with an emphasis on the user
             experience. I will use a research lead approach to identify key pain
             points and causes of consumer drop out in your site and provide an
             actionable list of solutions. <br /> <br />

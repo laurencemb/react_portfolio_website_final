@@ -42,7 +42,7 @@ function ShredItPage() {
             <div className="buttonCont">
           <p className="serviceText">
           This project was the design and development of a portfolio website to showcase the work of a creatie collective generating art installations for festivals. It needed to have an image gallery, a contact form and be responsive so that it looked great on desktop or mobile.
-          Designs can be seen below - The live site currently in build, link to follow upon completion.  {" "}
+          Designs can be seen below - The live site is currently in build, link to follow upon completion.  {" "}
             <br /> <br />
           
           </p>
@@ -58,7 +58,7 @@ function ShredItPage() {
         <LeftContainer>
             <div className="buttonCont">
           <p className="serviceText">
-           This design was heavily influenced by the brands bold signature red and white colour palette, creating an eye catching, simple and modern design. {" "}
+           This design was heavily influenced by the brand's bold signature red and white colour palette, creating an eye catching, simple and modern design. {" "}
             <br /> <br />
           
           </p>

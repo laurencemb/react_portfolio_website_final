@@ -56,7 +56,7 @@ function SpokePage() {
         <LeftContainer>
             <div className="buttonCont">
           <p className="serviceText">
-           The below onboarding designs and branding were developed from scratch as part of an interview project. The bold yellow colour scheme took inspiration from cyclings coveted yellow Jersey, and the name Spoke and the simmple logo leant in to the theme of bringing multiple people together. {" "}
+           The below onboarding designs and branding were developed from scratch as part of an interview project. The bold yellow colour scheme took inspiration from cyclings coveted yellow Jersey, and the name Spoke and the simple logo leant in to the theme of bringing multiple people together. {" "}
             <br /> <br />
           
           </p>
